@@ -8,7 +8,7 @@
             <carousel
               class="product-slider"
               :items="3"
-              :autoplay="true"
+              :autoplay="false"
               :nav="false"
               :dots="false"
             >
@@ -19,17 +19,16 @@
                     <li class="w-icon active">
                       <a href="#"><i class="icon_bag_alt"></i></a>
                     </li>
-                    <li class="quick-view"><a href="#">+ Quick View</a></li>
-                    <li class="w-icon">
-                      <a href="#"><i class="fa fa-random"></i></a>
+                    <li class="quick-view">
+                      <router-link to="/product">+ Quick View</router-link>
                     </li>
                   </ul>
                 </div>
                 <div class="pi-text">
                   <div class="catagory-name">Towel</div>
-                  <a href="#">
-                    <h5>Converse Shoes</h5>
-                  </a>
+                  <router-link to="/product"
+                    ><h5>Converse Shoes</h5></router-link
+                  >
                   <div class="product-price">$34.00</div>
                 </div>
               </div>

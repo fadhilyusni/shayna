@@ -8,6 +8,7 @@
         :autoplay="true"
         :nav="false"
         :dots="false"
+        :loop="true"
       >
         <div class="logo-item">
           <div class="tablecell-inner">
